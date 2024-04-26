@@ -16,7 +16,17 @@ class Client(Node):
     def send_request(self, bool):
         self.req.data = bool
         self.future = self.cli.call_async(self.req)
-        self.future.add_done_callback(self.callback(self.future))
+        rclpy.spin_until_future_complete(self, self.future)
+
+        try:
+            response = self.future.result()
+            if response.success:
+                self.get_logger().info("Result: {}".format(response.message))
+            else:
+                self.get_logger().info("Service call failed %r" % (response.message,))
+        except Exception as e:
+            self.get_logger().info("Service call failed %r" % (e,))
+
     
     def callback(self, future):
         try:
