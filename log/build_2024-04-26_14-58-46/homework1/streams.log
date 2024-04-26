@@ -1,0 +1,24 @@
+[0.573s] Invoking command in '/home/dalitso/ros2_edu/src/homework1': PYTHONPATH=/home/dalitso/ros2_edu/src/build/homework1/prefix_override:/home/dalitso/ros2_edu/src/install/homework1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/homework1 build --build-base /home/dalitso/ros2_edu/src/build/homework1/build install --record /home/dalitso/ros2_edu/src/build/homework1/install.log --single-version-externally-managed install_data
+[0.802s] running egg_info
+[0.803s] writing ../build/homework1/homework1.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../build/homework1/homework1.egg-info/dependency_links.txt
+[0.804s] writing entry points to ../build/homework1/homework1.egg-info/entry_points.txt
+[0.805s] writing requirements to ../build/homework1/homework1.egg-info/requires.txt
+[0.805s] writing top-level names to ../build/homework1/homework1.egg-info/top_level.txt
+[0.807s] reading manifest file '../build/homework1/homework1.egg-info/SOURCES.txt'
+[0.808s] writing manifest file '../build/homework1/homework1.egg-info/SOURCES.txt'
+[0.808s] running build
+[0.808s] running build_py
+[0.809s] running install
+[0.809s] running install_lib
+[0.810s] running install_data
+[0.811s] running install_egg_info
+[0.812s] removing '/home/dalitso/ros2_edu/src/install/homework1/lib/python3.10/site-packages/homework1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.813s] Copying ../build/homework1/homework1.egg-info to /home/dalitso/ros2_edu/src/install/homework1/lib/python3.10/site-packages/homework1-0.0.0-py3.10.egg-info
+[0.813s] running install_scripts
+[0.834s] Installing listener script to /home/dalitso/ros2_edu/src/install/homework1/lib/homework1
+[0.835s] Installing publisher script to /home/dalitso/ros2_edu/src/install/homework1/lib/homework1
+[0.835s] Installing subscriber script to /home/dalitso/ros2_edu/src/install/homework1/lib/homework1
+[0.835s] Installing talker script to /home/dalitso/ros2_edu/src/install/homework1/lib/homework1
+[0.835s] writing list of installed files to '/home/dalitso/ros2_edu/src/build/homework1/install.log'
+[0.858s] Invoked command in '/home/dalitso/ros2_edu/src/homework1' returned '0': PYTHONPATH=/home/dalitso/ros2_edu/src/build/homework1/prefix_override:/home/dalitso/ros2_edu/src/install/homework1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/homework1 build --build-base /home/dalitso/ros2_edu/src/build/homework1/build install --record /home/dalitso/ros2_edu/src/build/homework1/install.log --single-version-externally-managed install_data
