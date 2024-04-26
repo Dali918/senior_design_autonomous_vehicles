@@ -1,0 +1,41 @@
+[0.587s] Invoking command in '/home/dalitso/ros2_edu/src/homework2': PYTHONPATH=/home/dalitso/ros2_edu/src/build/homework2/prefix_override:/home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/homework2 build --build-base /home/dalitso/ros2_edu/src/build/homework2/build install --record /home/dalitso/ros2_edu/src/build/homework2/install.log --single-version-externally-managed install_data
+[0.809s] running egg_info
+[0.810s] creating ../build/homework2/homework2.egg-info
+[0.810s] writing ../build/homework2/homework2.egg-info/PKG-INFO
+[0.810s] writing dependency_links to ../build/homework2/homework2.egg-info/dependency_links.txt
+[0.811s] writing entry points to ../build/homework2/homework2.egg-info/entry_points.txt
+[0.811s] writing requirements to ../build/homework2/homework2.egg-info/requires.txt
+[0.811s] writing top-level names to ../build/homework2/homework2.egg-info/top_level.txt
+[0.811s] writing manifest file '../build/homework2/homework2.egg-info/SOURCES.txt'
+[0.813s] reading manifest file '../build/homework2/homework2.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../build/homework2/homework2.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.814s] running build_py
+[0.814s] creating /home/dalitso/ros2_edu/src/build/homework2/build
+[0.814s] creating /home/dalitso/ros2_edu/src/build/homework2/build/lib
+[0.814s] creating /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2
+[0.814s] copying homework2/__init__.py -> /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2
+[0.814s] copying homework2/navigation.py -> /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2
+[0.815s] copying homework2/client.py -> /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2
+[0.815s] running install
+[0.815s] running install_lib
+[0.815s] creating /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2
+[0.816s] copying /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2/__init__.py -> /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2
+[0.816s] copying /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2/navigation.py -> /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2
+[0.816s] copying /home/dalitso/ros2_edu/src/build/homework2/build/lib/homework2/client.py -> /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2
+[0.816s] byte-compiling /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2/__init__.py to __init__.cpython-310.pyc
+[0.817s] byte-compiling /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2/navigation.py to navigation.cpython-310.pyc
+[0.817s] byte-compiling /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2/client.py to client.cpython-310.pyc
+[0.818s] running install_data
+[0.818s] creating /home/dalitso/ros2_edu/src/install/homework2/share/ament_index
+[0.818s] creating /home/dalitso/ros2_edu/src/install/homework2/share/ament_index/resource_index
+[0.818s] creating /home/dalitso/ros2_edu/src/install/homework2/share/ament_index/resource_index/packages
+[0.818s] copying resource/homework2 -> /home/dalitso/ros2_edu/src/install/homework2/share/ament_index/resource_index/packages
+[0.818s] copying package.xml -> /home/dalitso/ros2_edu/src/install/homework2/share/homework2
+[0.818s] running install_egg_info
+[0.820s] Copying ../build/homework2/homework2.egg-info to /home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages/homework2-0.0.0-py3.10.egg-info
+[0.821s] running install_scripts
+[0.842s] Installing client script to /home/dalitso/ros2_edu/src/install/homework2/lib/homework2
+[0.842s] Installing server script to /home/dalitso/ros2_edu/src/install/homework2/lib/homework2
+[0.842s] writing list of installed files to '/home/dalitso/ros2_edu/src/build/homework2/install.log'
+[0.864s] Invoked command in '/home/dalitso/ros2_edu/src/homework2' returned '0': PYTHONPATH=/home/dalitso/ros2_edu/src/build/homework2/prefix_override:/home/dalitso/ros2_edu/src/install/homework2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/homework2 build --build-base /home/dalitso/ros2_edu/src/build/homework2/build install --record /home/dalitso/ros2_edu/src/build/homework2/install.log --single-version-externally-managed install_data
