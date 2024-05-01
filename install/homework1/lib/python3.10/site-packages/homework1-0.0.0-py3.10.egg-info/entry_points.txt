@@ -1,6 +1,0 @@
-[console_scripts]
-listener = homework1.listener:main
-publisher = homework1.publisher:main
-subscriber = homework1.subscriber:main
-talker = homework1.talker:main
-

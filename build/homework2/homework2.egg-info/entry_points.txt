@@ -1,4 +1,0 @@
-[console_scripts]
-client = homework2.client:main
-server = homework2.navigation:main
-
