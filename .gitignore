@@ -1,0 +1,4 @@
+# Ignore tutorial folders 
+urdf_tutorial/
+gazebo_project/
+
