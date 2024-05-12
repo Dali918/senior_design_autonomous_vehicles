@@ -1,8 +1,8 @@
-import os 
-from  glob import glob
 from setuptools import find_packages, setup
+import os 
+from glob import glob
 
-package_name = 'homework3'
+package_name = 'gazebo_homework'
 
 setup(
     name=package_name,
@@ -12,17 +12,16 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-
-        (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
-        (os.path.join('share', package_name, 'meshes'), glob('meshes/*')),
-        (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
+        (os.path.join("share", package_name, "urdf"), glob("urdf/*")),
+        (os.path.join("share", package_name, "meshes"), glob("meshes/*")),
+        (os.path.join("share", package_name, "worlds"), glob("worlds/*")),
+        (os.path.join("share", package_name, "launch"), glob("launch/*")),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='dalitso',
     maintainer_email='dalitbanda@gmail.com',
-    description='homework3 package to build a robot graphic',
+    description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={

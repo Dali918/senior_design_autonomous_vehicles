@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+    <!-- This will include all the contents of example_include.xacro first. Go check it out! -->
+    <xacro:include filename="common.urdf.xacro" />
+
+     <!-- This first link called "world" is empty -->
+    <link name="world"></link>
+
+
+    <!-- A simple fixed joint from our empty world link, to our base. -->
+    <!-- The base origin is offset from the world origin. -->
+    <joint name="base_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="world"/>
+        <child link="base_link"/>        
+    </joint>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.5 0.1" />
+            </geometry>
+            <origin xyz = "0 0 0.1" rpy="0 0 0" />
+            <material name="white" />
+        </visual>
+    </link> 
+
+    <!-- left wheel joint-->
+    <joint name="left_wheel_joint" type="revolute">
+        <origin xyz="-0.25 0 0" rpy="0 ${pi/2} 0" />
+        <parent link="base_link" />
+        <child link="left_wheel" />
+        <axis rpy="0 0 0" xyz="0 0 1" />
+        <limit lower="-1.79769e+308" upper="1.79769e+308" effort="100000" velocity="1000" />
+    </joint>
+    
+    <!-- right wheel joint-->
+    <joint name="right_wheel_joint" type="revolute">
+        <origin xyz="0.25 0 0" rpy="0 ${pi/2} 0" />
+        <parent link="base_link" />
+        <child link="right_wheel" />
+        <axis rpy="0 0 0" xyz="0 0 1" />
+        <limit lower="-1.79769e+308" upper="1.79769e+308" effort="100000" velocity="1000" />
+    </joint>
+
+    <!-- front wheel joint-->
+    <joint name="front_wheel_joint" type="fixed">
+        <origin xyz="0 0.25 0" rpy="0 ${pi/2} 0" />
+        <parent link="base_link" />
+        <child link="front_wheel" />
+    </joint>
+
+    <!-- back wheel joint-->
+    <joint name="back_wheel_joint" type="fixed">
+        <origin xyz="0 -0.25 0" rpy="0 ${pi/2} 0" />
+        <parent link="base_link" />
+        <child link="back_wheel" />
+    </joint>
+
+    <!-- left wheel link -->
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.05" radius="0.05" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+    </link>
+
+    <!-- right wheel link -->
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.05" radius="0.05" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+    </link>
+
+    <!-- front wheel link -->
+    <link name="front_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.05" radius="0.04" />
+            </geometry>
+            <material name="black" />
+        </visual>
+    </link>
+
+    <!-- back wheel link -->
+    <link name="back_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.05" radius="0.04" />
+            </geometry>
+            <material name="black" />
+        </visual>
+    </link>
+
+
+</robot>
+
