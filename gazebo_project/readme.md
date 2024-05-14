@@ -4,8 +4,8 @@
  rather just the graphic with the correct joints and dimensoins
 - See screen shots of the constructed robot below 
 
- ![robot1](https://github.com/Dali918/senior_design_autonomous_vehicles/blob/main/gazebo_project/robot_1.png)
- ![robot2](/robot_2.png)
- ![robot3](/robot_3.png)
+![robot1](https://github.com/Dali918/senior_design_autonomous_vehicles/blob/main/gazebo_project/robot_1.png)
+![robot2](https://github.com/Dali918/senior_design_autonomous_vehicles/blob/main/gazebo_project/robot_2.png)
+![robot3](https://github.com/Dali918/senior_design_autonomous_vehicles/blob/main/gazebo_project/robot_3.png)
 
 
